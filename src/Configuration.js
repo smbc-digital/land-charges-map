@@ -5,7 +5,7 @@ import {pt2_misc_Popup,pt3_article4_Popup,pt3_conservation_areas_Popup,pt3_misc_
 const Configuration = {
     Map: {
         StartingLatLng: [53.3915, -2.125143],
-        StartingZoom: 12,
+        StartingZoom: 18,
         FullscreenControl: true,
         DisplayLayerControls: true,
         DisplayGrayScale: true,
@@ -54,7 +54,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -71,7 +71,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -88,7 +88,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -105,7 +105,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -122,7 +122,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -139,7 +139,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -156,7 +156,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -164,7 +164,7 @@ const Configuration = {
             url: 'https://spatialgeojson.s3-eu-west-1.amazonaws.com/webmapping/Land-Charges/pt4_ancient_monuments.geojson',
             layerOptions: {
                 onEachFeature: pt4_ancient_monuments_Popup,
-                maxZoom: 17,
+                maxZoom: 12,
                 style: {
                     color: '#ff0000',
                     weight: 2,
@@ -173,7 +173,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -181,7 +181,7 @@ const Configuration = {
             url: 'https://spatialgeojson.s3-eu-west-1.amazonaws.com/webmapping/Land-Charges/pt4_common_land.geojson',
             layerOptions: {
                 onEachFeature: pt4_common_land_Popup,
-                maxZoom: 17,
+                maxZoom: 12,
                 style: {
                     color: '#ff0000',
                     weight: 2,
@@ -190,7 +190,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -198,7 +198,7 @@ const Configuration = {
             url: 'https://spatialgeojson.s3-eu-west-1.amazonaws.com/webmapping/Land-Charges/pt4_cpo.geojson',
             layerOptions: {
                 onEachFeature: pt4_cpo_Popup,
-                maxZoom: 17,
+                maxZoom: 12,
                 style: {
                     color: '#ff0000',
                     weight: 2,
@@ -207,7 +207,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -215,7 +215,7 @@ const Configuration = {
             url: 'https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=land_charges:pt4_misc&outputFormat=application/json&bbox={0},EPSG:4326&srsName=EPSG:4326',
             layerOptions: {
                 onEachFeature: pt4_misc_Popup,
-                maxZoom: 17,            
+                maxZoom: 12,            
                 style: {
                     color: '#ff0000',
                     weight: 2,
@@ -224,7 +224,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -232,7 +232,7 @@ const Configuration = {
             url: 'https://spatialgeojson.s3-eu-west-1.amazonaws.com/webmapping/Land-Charges/pt4_pipelines.geojson',
             layerOptions: {
                 onEachFeature: pt4_pipelines_Popup,
-                maxZoom: 17,
+                maxZoom: 12,
                 style: {
                     color: '#ff0000',
                     weight: 2,
@@ -242,7 +242,7 @@ const Configuration = {
                 }
                 
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -250,7 +250,7 @@ const Configuration = {
             url: 'https://spatialgeojson.s3-eu-west-1.amazonaws.com/webmapping/Land-Charges/pt4_s38.geojson',
             layerOptions: {
                 onEachFeature: pt4_s38_Popup,
-                maxZoom: 17,
+                maxZoom: 12,
                 style: {
                     color: '#ff0000',
                     weight: 18,
@@ -259,7 +259,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -267,7 +267,7 @@ const Configuration = {
             url: 'https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=land_charges:pt4_smoke_control_areas&outputFormat=application/json&bbox={0},EPSG:4326&srsName=EPSG:4326',
             layerOptions: {
                 onEachFeature: pt4_smoke_control_areas_Popup,
-                maxZoom: 17,
+                maxZoom: 12,
                 style: {
                     color: '#ff0000',
                     weight: 2,
@@ -276,7 +276,7 @@ const Configuration = {
                     fillOpacity: 0
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -284,7 +284,7 @@ const Configuration = {
             url: 'https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=land_charges:pt4_sssi&outputFormat=application/json&bbox={0},EPSG:4326&srsName=EPSG:4326',
             layerOptions: {
                 onEachFeature: pt4_sssi_Popup,
-                maxZoom: 17,
+                maxZoom: 12,
                 style: {
                     color: '#ff0000',
                     weight: 2,
@@ -293,7 +293,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -301,7 +301,7 @@ const Configuration = {
             url: 'https://spatialgeojson.s3-eu-west-1.amazonaws.com/webmapping/Land-Charges/pt6a_advanced_payments.geojson',
             layerOptions: {
                 onEachFeature: pt6a_advanced_payments_Popup,
-                maxZoom: 17,
+                maxZoom: 12,
                 style: {
                     color: '#ff0000',
                     weight: 2,
@@ -310,7 +310,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -318,7 +318,7 @@ const Configuration = {
             url: 'https://spatialgeojson.s3-eu-west-1.amazonaws.com/webmapping/Land-Charges/pt6a_misc.geojson',
             layerOptions: {
                 onEachFeature: pt6a_misc_Popup,
-                maxZoom: 17,
+                maxZoom: 12,
                 style: {
                     color: '#ff0000',
                     weight: 2,
@@ -327,7 +327,7 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
         },
         {
@@ -335,7 +335,7 @@ const Configuration = {
             url: 'https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=land_charges:pt10_misc&outputFormat=application/json&bbox={0},EPSG:4326&srsName=EPSG:4326',
             layerOptions: {
                 onEachFeature: pt10_misc_Popup,
-                maxZoom: 17,
+                maxZoom: 12,
                 style: {
                     color: '#ff0000',
                     weight: 2,
@@ -344,9 +344,9 @@ const Configuration = {
                     fillOpacity: 0.20
                 }
             },
-            DisplayOverlay: true,
+            displayOverlay: true,
             visibleByDefault: true
-        },    
+        }    
         ],
     StaticData: 
     [
