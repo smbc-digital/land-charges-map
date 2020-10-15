@@ -35,8 +35,16 @@ const Leasesstyle = {
         fillColor: '#006400',
         fillOpacity: 0
 }
+const tpoStyle = {
+    color: '#00ff00',
+    weight: 1,
+    opacity: 1,
+    fillColor: '#00ff00',
+    fillOpacity: 0.7
+}
 
 export {
     LandOwnershipstyle,
-    Leasesstyle
+    Leasesstyle,
+    tpoStyle
 }
