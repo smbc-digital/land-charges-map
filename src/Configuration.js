@@ -1,12 +1,12 @@
 import {pt2_misc_Popup,pt3_article4_Popup,pt3_conservation_areas_Popup,pt3_misc_Popup,pt3_planning_Popup,pt3_planning_notices_Popup,pt3_tpo_Popup,
     pt4_ancient_monuments_Popup,pt4_common_land_Popup,pt4_cpo_Popup,pt4_misc_Popup,pt4_pipelines_Popup,pt4_s38_Popup,pt4_smoke_control_areas_Popup,
     pt4_sssi_Popup,pt6a_advanced_payments_Popup,pt6a_misc_Popup,pt10_misc_Popup} from './Popups'
-import { tpoStyle} from './Styles'
+
 
 const Configuration = {
     Map: {
         StartingLatLng: [53.3915, -2.125143],
-        StartingZoom: 18,
+        StartingZoom: 19,
         FullscreenControl: true,
         DisplayLayerControls: true,
         DisplayGrayScale: true,
