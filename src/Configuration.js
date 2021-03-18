@@ -28,7 +28,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -46,7 +46,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -63,7 +63,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -80,7 +80,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -97,7 +97,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -114,7 +114,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -131,7 +131,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -148,7 +148,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -165,7 +165,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -182,7 +182,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -199,7 +199,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -216,7 +216,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
                 
             },
@@ -234,7 +234,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -268,7 +268,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -285,7 +285,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -302,7 +302,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
@@ -319,7 +319,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.10
+                    fillOpacity: 0.05
                 }
             },
             displayOverlay: true,
