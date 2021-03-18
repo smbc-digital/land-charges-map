@@ -16,32 +16,7 @@ const Configuration = {
     },
     DynamicData: 
     [
-        {
-            key: 'os1250_line',
-            url: 'https://spatial.stockport.gov.uk/geoserver/wms?',
-            layerOptions: {
-                maxZoom: 20,
-                minZoom: 19,
-                layers: 'base_maps:os1250_line',
-                format: 'image/png',
-                transparent: true
-            },
-            displayOverlay: false,
-            visibleByDefault: true
-        },
-        {
-            key: 'os1250_text',
-            url: 'https://spatial.stockport.gov.uk/geoserver/wms?',
-            layerOptions: {
-                maxZoom: 20,
-                minZoom: 19,
-                layers: 'base_maps:os1250_text',
-                format: 'image/png',
-                transparent: true
-            },
-            displayOverlay: false,
-            visibleByDefault: true
-        },
+    
         {
             key: 'Part 2 - Miscellaneous',
             url: 'https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=land_charges:pt2_misc&outputFormat=application/json&bbox={0},EPSG:4326&srsName=EPSG:4326',
@@ -53,7 +28,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -71,7 +46,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -88,7 +63,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -105,7 +80,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -122,7 +97,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -139,7 +114,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -156,7 +131,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -173,7 +148,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -190,7 +165,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -207,7 +182,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -224,7 +199,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -241,7 +216,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
                 
             },
@@ -259,7 +234,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -293,7 +268,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -310,7 +285,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -327,7 +302,7 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
@@ -344,10 +319,36 @@ const Configuration = {
                     weight: 2,
                     opacity: 1,
                     fillColor: '#ff0000',
-                    fillOpacity: 0.20
+                    fillOpacity: 0.10
                 }
             },
             displayOverlay: true,
+            visibleByDefault: true
+        },
+        {
+            key: 'os1250_line',
+            url: 'https://spatial.stockport.gov.uk/geoserver/wms?',
+            layerOptions: {
+                maxZoom: 20,
+                minZoom: 19,
+                layers: 'base_maps:os1250_line',
+                format: 'image/png',
+                transparent: true
+            },
+            displayOverlay: false,
+            visibleByDefault: true
+        },
+        {
+            key: 'os1250_text',
+            url: 'https://spatial.stockport.gov.uk/geoserver/wms?',
+            layerOptions: {
+                maxZoom: 20,
+                minZoom: 19,
+                layers: 'base_maps:os1250_text',
+                format: 'image/png',
+                transparent: true
+            },
+            displayOverlay: false,
             visibleByDefault: true
         } 
        
